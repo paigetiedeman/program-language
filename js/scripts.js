@@ -16,6 +16,7 @@ $(document).ready(function() {
     } if (phone == "google") {
       $("#javascript").show();
     } if (phone == "none") {
+      alert("Did you mean to take this quiz?")
       $("#offGrid").show();
     }
     event.preventDefault();

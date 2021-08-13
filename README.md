@@ -1,6 +1,6 @@
 # Programming Language Quiz
 
-#### This site is an interactive quize using multiple coding languages
+#### This site is an interactive quiz using multiple coding languages
 
 #### _By Paige Tiedeman_
 
@@ -14,7 +14,7 @@
 
 ## Description
 
-_This simple HTML website uses forms with JavaScript and JQuery funtionalty to show the user which language they should learn. Styled with custom and Bootstrap CSS._
+_This simple HTML website uses forms with JavaScript and JQuery functionality to show the user which language they should learn. Styled with custom and Bootstrap CSS._
 
 ## Setup/Installation
 
