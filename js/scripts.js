@@ -3,14 +3,13 @@ $(document).ready(function() {
     event.preventDefault();
     $("#swift").hide();
     $("#python").hide();
-    $("#python").hide();
+    $("#javascript").hide();
     $("#offGrid").hide();
     const phone = $("select#phone").val();
-
-
+  
     if (phone == "apple") {
       $("#swift").show();
-    } if (phone == "android") {
+    } if (phone == "samsung") {
       $("#python").show();
     } if (phone == "google") {
       $("#javascript").show();
