@@ -9,7 +9,45 @@
 </head>
 <body>
   <div class="container">
-    <h1>Program Languages</h1>
+    <div class="jumbotron">
+    <h1>Which language should you learn?</h1>
+    <p>Take this 5 question quiz to find out:</p>
+    </div>
+    <form id="profile">
+      <label for="name">Name:</label>
+      <input id="name" type="text" name="name" required>
+      <div>
+      <label for="phone">Phone Preference:</label>
+        <select id="phone" name="phone">
+          <option value="apple">Apple</option>
+          <option value="samsung">Samsung</option>
+          <option value="google">Google</option>
+          <option value="none">Off the Grid</option>
+        </select>
+      </div>
+      
+      <button class="btn" type="submit">See my match!</button>
+    </form>
+    <div id="javascript">
+      <h4>Your Match:</h4>
+      <h5>Javascript</h5>
+      <p>A great language for making any website interactive useful for anyone starting out with programming.</p>
+    </div>
+    <div id="python">
+      <h4>Your Match:</h4>
+      <h5>Python</h5>
+      <p>Named after Monty Python this language is widely used for data analysis, automating tasks and even web development!</p>
+    </div>
+    <div id="swift">
+      <h4>Your Match:</h4>
+      <h5>Swift</h5>
+      <p>You prefer iOS products and can't wait to one day work at HQ this interactive language designed by Apple is surely best for you.</p>
+    </div>
+    <div id="offGrid">
+      <h4>Your Match:</h4>
+      <h5>None</h5>
+      <p>You would rather live in a cabin with no phone for the rest of your days, forget about a language and enjoy a cold one in your hammock.</p>
+    </div>
   </div>
 </body>
 </html>
