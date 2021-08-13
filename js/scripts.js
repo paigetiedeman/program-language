@@ -1,10 +1,12 @@
 $(document).ready(function() {
-  $("form#profile").submit(function(event) {
-    event.preventDefault();
     $("#swift").hide();
     $("#python").hide();
     $("#javascript").hide();
     $("#offGrid").hide();
+  $("form#profile").submit(function(event) {
+    const nameInput = $("input#name").val();
+    
+    $(".name").append(nameInput);
     const phone = $("select#phone").val();
   
     if (phone == "apple") {
@@ -16,5 +18,8 @@ $(document).ready(function() {
     } if (phone == "none") {
       $("#offGrid").show();
     }
+    event.preventDefault();
+    
   });
 });
+
