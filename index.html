@@ -18,7 +18,7 @@
     <form id="profile">
       <label for="name">Name:</label>
       <input id="name" type="text" name="name" required>
-      <div>
+      <div><br>
         <label for="phone">Phone Preference:</label>
         <select id="phone" name="phone">
           <option value="apple">Apple</option>
@@ -26,7 +26,7 @@
           <option value="google">Google</option>
           <option value="none">Off the Grid</option>
         </select>
-      </div>
+      </div><br>
       <div class="radio">
         <p>Favorite Movie Genre:</p>
         <label><input type="radio" name="movie" value="comedy" checked> Comedy</label>
@@ -39,11 +39,21 @@
       </div>
       <div class="radio">
         <label><input type="radio" name="movie" value="Action" checked> Action</label>
-      </div>
-      <label for="favcolor">Select your favorite color:</label>
-      
-      <button class="btn" type="submit">See my match!</button>
-    </form>
+      </div><br>
+      <div id="trip">
+        <label for="vacation">Ideal Vacation:</label>
+        <select id="vacation" name="vacation">
+          <option value="beach">Beach Resort</option>
+          <option value="museum">City Tour</option>
+          <option value="camp">Camping</option>
+        </select>
+      </div><br>
+      <div id="color">
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" name="favcolor" value="#00EEFF">
+      </div><br>
+      <button class="btn" type="submit">See my Match!</button>
+    </form><br>
     <div id="javascript">
       <h4>Your Match:</h4>
       <h5>Javascript</h5>
