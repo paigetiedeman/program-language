@@ -1,3 +1,8 @@
+function changeColor() {
+  let color = $("#favcolor").val();
+  $.body.style.backgroundColor = color;
+}
+
 $(document).ready(function() {
     $("#swift").hide();
     $("#python").hide();
@@ -24,3 +29,8 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function(){
+  $("#bg").change(function(){
+    $(".jumbotron").css("background-color",$("#bg").val());
+  });
+});
