@@ -16,7 +16,7 @@
   <div class="container">
     <div class="jumbotron">
       <h1>Which Language Should You Learn?</h1>
-      <p><em>Take this 5 question quiz to find out:</em></p>
+      <p><em>Take this 5 question quiz to find out your match*:</em></p>
     </div>
     <form id="profile" name="profile">
       <label for="name">Name:</label>
@@ -54,7 +54,14 @@
       <div id="color">
         <!-- changes color of jumbotron -->
         <label for="bg">Pick Your Favorite Color:</label>
-        <input type="color" class="theme" id="bg" value="#BF0603"/>
+        <input type="color" class="theme" id="bg" value="#BF0603" />
+      </div><br>
+      <div class="radio">
+        <p>Do you enjoy computers?</p>
+        <label><input type="radio" name="alive" value="yes" required> Yes</label>
+      </div>
+      <div class="radio">
+        <label><input type="radio" name="alive" value="no"> No</label>
       </div><br>
       <button id="submit">See my Match!</button>
     </form><br>
@@ -62,32 +69,36 @@
       <div id="javascript">
         <h4><span class="name"></span>'s Match:</h4>
         <h5>Javascript</h5>
-        <img src="img/javascript.gif" class="gif">
-        <p>A great language for making any website interactive useful for anyone starting out with programming.</p>
+        <img src="img/javascript.gif">
+        <p>While you may want to throw your laptop out the window at first, this language is sure to help you land your
+          dream job or freelance web design to travel the country in a sprinter van.</p>
       </div>
       <div id="python">
         <h4><span class="name"></span>'s Match:</h4>
         <h5>Python</h5>
-        <img src="img/samsung.gif" class="gif">
-        <p>Named after Monty Python this language is widely used for data analysis, automating tasks and even web
-          development!</p>
+        <img src="img/samsung.gif">
+        <p>Interested in how Spotify recommends you songs or why Snapchat keeps showing you ASMR stories? Then here you
+          go named after Monty Python this language is widely used for data analysis, automating tasks and even web
+          development! </p>
       </div>
       <div id="swift">
         <h4><span class="name"></span>'s Match:</h4>
         <h5>Swift</h5>
-        <img src="img/iphone.gif" class="gif">
-        <p>You prefer iOS products and can't wait to one day work at Apple HQ, this interactive language designed by Apple is
+        <img src="img/iphone.gif">
+        <p>You prefer iOS products and can't wait to one day work at Apple HQ, this interactive language designed by
+          Apple is
           surely best for you.</p>
       </div>
       <div id="offGrid">
         <h4><span class="name"></span>'s Match:</h4>
         <h5>None</h5>
-        <img src="img/ron.gif" class="gif">
+        <img src="img/ron.gif">
         <p>You would rather live in a cabin with no phone for the rest of your days, forget about a language and enjoy a
           cold one by the fire.</p>
       </div>
     </div>
-    <p><small><em>This quiz is completely fictional work</em></small></p>
+    <p><small><em>*This quiz is completely fictional work and the creator is not responsible for any life decisions made
+          after taking it.</em></small></p>
   </div>
 </body>
 

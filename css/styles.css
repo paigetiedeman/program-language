@@ -44,3 +44,7 @@ button {
   font-weight: bold;
 }
 
+#results img {
+  width: 35%;
+  height: auto;
+}
