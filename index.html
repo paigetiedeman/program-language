@@ -4,6 +4,9 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Roboto&display=swap" rel="stylesheet">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
   <title>Program Language</title>
@@ -12,12 +15,12 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Which language should you learn?</h1>
-      <p>Take this 5 question quiz to find out:</p>
+      <h1>Which Language Should You Learn?</h1>
+      <p><em>Take this 5 question quiz to find out:</em></p>
     </div>
     <form id="profile" name="profile">
       <label for="name">Name:</label>
-      <input id="name" type="text" name="name" required>
+      <input id="name" type="text" name="name" placeholder="First Name" required>
       <div><br>
         <label for="phone">Phone Preference:</label>
         <select id="phone" name="phone">
@@ -38,7 +41,7 @@
         <label><input type="radio" name="movie" value="horror"> Horror</label>
       </div>
       <div class="radio">
-        <label><input type="radio" name="movie" value="Action" checked> Action</label>
+        <label><input type="radio" name="movie" value="Action"> Action</label>
       </div><br>
       <div id="trip">
         <label for="vacation">Ideal Vacation:</label>
@@ -50,7 +53,7 @@
       </div><br>
       <div id="color">
         <label for="favcolor">Select your favorite color:</label>
-        <input type="color" name="favcolor" value="#00EEFF">
+        <input type="color" name="favcolor" value="#8D0801">
       </div><br>
       <button id="submit">See my Match!</button>
     </form><br>

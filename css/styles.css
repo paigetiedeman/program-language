@@ -1,2 +1,39 @@
+body {
+  background-color: #f4d58d8f;
+  color:#001427;
+  font-family:'Roboto', sans-serif;
+}
 
+.jumbotron {
+  background-color: #BF0603;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Chonburi', cursive;
+}
+
+select {
+  color: #8D0801;
+}
+
+.radio label {
+  color: #8D0801;
+}
+
+button {
+  background-color: #708D81;
+  color: white;
+  border-radius: 10px;
+}
+
+#results {
+  padding: 8px;
+  border:double #8D0801;
+  border-width: 0px 0px 3px 6px;
+  margin-bottom: 5px;
+}
 
