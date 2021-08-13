@@ -10,9 +10,9 @@ $(document).ready(function() {
     const phone = $("select#phone").val();
   
     if (phone == "apple") {
-      $("#swift").show();
+      $("#swift").fadeToggle(3000);
     } if (phone == "samsung") {
-      $("#python").show();
+      $("#python").slideToggle(2000);
     } if (phone == "google") {
       $("#javascript").show();
     } if (phone == "none") {
