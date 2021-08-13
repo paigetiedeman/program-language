@@ -38,3 +38,9 @@ button {
   margin-bottom: 5px;
 }
 
+#results h5 {
+  text-decoration: underline;
+  color: #BF0603;
+  font-weight: bold;
+}
+
